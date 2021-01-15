@@ -1,0 +1,42 @@
+./test1.sh
+Child Process: 49995 Exited normally
+Real: 0.001006s User: 0.001006s Sys: 0.000000s
+Child Process: 49996 Exited normally
+Real: 0.000934s User: 0.000934s Sys: 0.000000s
+total 88
+-rwxr-xr-x 1 daniel daniel  8312 Oct 15 20:05 dumpcore
+-rw-r--r-- 1 daniel daniel    71 Oct 15 20:05 dumpcore.c
+-rw-r--r-- 1 daniel daniel    48 Oct 15 20:05 Makefile
+-rwxrwxr-x 1 daniel daniel 22280 Oct 15 23:10 mysh
+-rw-r--r-- 1 daniel daniel  8215 Oct 15 23:20 mysh.c
+-rw-rw-r-- 1 daniel daniel   179 Oct 15 23:21 output
+-rw-r--r-- 1 daniel daniel    15 Oct 15 22:49 shell.sh
+-rwxr-xr-x 1 daniel daniel   269 Oct 15 22:40 test1.sh
+-rwxr-xr-x 1 daniel daniel   598 Oct 15 22:57 test2.sh
+-rw-r--r-- 1 daniel daniel   287 Oct 15 21:26 test.c
+drwxr-xr-x 2 daniel daniel  4096 Oct 15 20:05 testdir
+-rw-rw-r-- 1 daniel daniel    18 Oct 15 23:21 testfile2.out
+-rw-rw-r-- 1 daniel daniel    18 Oct 15 23:21 testfile.out
+Child Process: 49997 Exited normally
+Real: 0.001689s User: 0.001689s Sys: 0.000000s
+
+./test2.sh
+Child Process: 50305 Exited normally
+Real: 0.000740s User: 0.000740s Sys: 0.000000s
+error executing lssssssss
+(errno 2) No such file or directory
+/tmp
+/home/daniel
+Child Process: 50306 Exited with return value 127
+Real: 0.000235s User: 0.000235s Sys: 0.000000s
+Child Process: 50307 Exited normally
+Real: 0.000952s User: 0.000952s Sys: 0.000000s
+error redirecting stdout to testfile.out
+(errno 13) Permission denied
+Child Process: 50308 Exited normally
+Real: 0.000841s User: 0.000841s Sys: 0.000000s
+error redirecting stdout to testfile.out
+(errno 13) Permission denied
+end of file read, exiting shell wil exit code 1
+/tmp
+/home/daniel
